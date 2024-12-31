@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://chatbotfront-8u3swmq45-prachids-projects.vercel.app/login',  // Replace with your Vercel frontend URL
+  origin: 'https://mental-health-chatbotfront.onrender.com',  // Replace with your Vercel frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],       // Allow necessary HTTP methods
 }));
 // Connect to MongoDB
