@@ -50,7 +50,7 @@ const Chat = () => {
   };
 
   return (
-    <div className="min-h-screen min-w-screen bg-blue-950 pt-[7rem]">
+    <div className="min-h-screen min-w-screen bg-blue-950 py-[7rem]">
     <div className="relative min-w-screen mx-[2rem] xs:mx-[4rem] sm:mx-[6rem] md:mx-[9rem] lg:mx-[17rem] p-6 bg-gradient-to-r from-green-200 via-blue-200 to-purple-200 shadow-lg rounded-lg">
       <div className="relative z-10"> {/* Ensure chat UI is on top of background */}
         <h2 className="text-xl text-center font-bold mb-6 text-indigo-900">Chatbot for Better Days</h2>
