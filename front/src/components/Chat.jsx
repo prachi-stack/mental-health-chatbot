@@ -27,7 +27,7 @@ const Chat = () => {
 
     // Send the user's message to the backend
     try {
-      const response = await axios.post("http://localhost:5000/api/chat", {
+      const response = await axios.post("https://mental-health-chatbotback.onrender.com/api/chat", {
         message: userMessage,
       });
 
