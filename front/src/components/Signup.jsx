@@ -21,7 +21,7 @@ const Signup  = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/auth/signup",
+        "https://mental-health-chatbotback.onrender.com/auth/signup",
         formData
       );
       alert(response.data.message);
